@@ -28,6 +28,8 @@ while Running == True:
             Running = False
     Rendertext("This is my first App!",(0,0))
     Rendertext("Made by Ali",(0,25))
+    Rendertext("You can check the code on github!",(0,50))
+    Rendertext("https://github.com/alicokan34/My-first-App/tree/main",(0,50))
     pygame.display.update()
     clock.tick(FPS)
 
